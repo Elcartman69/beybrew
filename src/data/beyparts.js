@@ -37,6 +37,25 @@ const BX_BLADES = [
 
 const UX_BLADES = [
   {
+    name: "Meteor Dragoon",
+    points: 3,
+    attack: 75,
+    defense: 15,
+    stamina: 35,
+    type: "attack",
+    spinType: "left",
+    image: "Meteor_Dragoon_3-70J.webp",
+  },
+  {
+    name: "Mummy Curse",
+    points: 2,
+    attack: 30,
+    defense: 60,
+    stamina: 20,
+    type: "defense",
+    image: "Mummy_Curse_7-55W.webp",
+  },
+  {
     name: "Clock Mirage",
     points: 4,
     attack: 10,
@@ -316,25 +335,6 @@ const ASSIST_BLADES = [
 
 const parts = {
   blades: [
-    {
-      name: "Meteor Dragoon",
-      points: 3,
-      attack: 75,
-      defense: 15,
-      stamina: 35,
-      type: "attack",
-      spinType: "left",
-      image: "Meteor_Dragoon_3-70J.webp",
-    },
-    {
-      name: "Mummy Curse",
-      points: 2,
-      attack: 30,
-      defense: 60,
-      stamina: 20,
-      type: "defense",
-      image: "Mummy_Curse_7-55W.webp",
-    },
     {
       name: "Wyvern Hover",
       hasbro: true,
