@@ -89,6 +89,7 @@ const CX_BLADES = [
   },
   {
     name: "Eclipse",
+    altname: "Eclipse (Upper Mode)"
     points: 1,
     attack: 30,
     defense: 20,
@@ -99,7 +100,7 @@ const CX_BLADES = [
   },
   {
     name: "Eclipse",
-    atlname: "Eclipse (Mode Change)",
+    atlname: "Eclipse (Smash Mode)",
     points: 1,
     attack: 20,
     defense: 30,
