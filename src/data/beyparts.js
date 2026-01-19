@@ -89,7 +89,6 @@ const CX_BLADES = [
   },
   {
     name: "Eclipse",
-    altname: "Eclipse (Upper Mode)"
     points: 1,
     attack: 30,
     defense: 20,
@@ -100,7 +99,7 @@ const CX_BLADES = [
   },
   {
     name: "Eclipse",
-    atlname: "Eclipse (Smash Mode)",
+    atlname: "Eclipse (Mode Change)",
     points: 1,
     attack: 20,
     defense: 30,
@@ -247,11 +246,11 @@ const ASSIST_BLADES = [
   {
     name: "Charge",
     points: 0,
+    type: "defense",
+    alias: "C",
     attack: 15,
     defense: 20,
     stamina: 5,
-    type: "defense",
-    alias: "C",
     image: "AssistBladeCharge.webp",
   },
   {
