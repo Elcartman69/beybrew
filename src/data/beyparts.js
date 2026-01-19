@@ -89,24 +89,25 @@ const CX_BLADES = [
   },
   {
     name: "Eclipse",
-    points: 1,
-    attack: 30,
-    defense: 20,
-    stamina: 10,
-    type: "balance",
     line: "CX",
-    image: "MainBladeEclipse_Upper_Mode.webp",
-  },
-  {
-    name: "Eclipse",
-    atlname: "Eclipse (Mode Change)",
-    points: 1,
-    attack: 20,
-    defense: 30,
-    stamina: 10,
     type: "balance",
-    line: "CX",
-    image: "MainBladeEclipse_Smash_Mode.webp",
+    points: 1,
+    modes: [
+     {
+       mode: "Upper",
+       attack: 30,
+       defense: 20,
+       stamina: 10,
+       image: "MainBladeEclipse_Upper_Mode.webp",
+     },
+     {
+       mode: "Smash",
+       attack: 20,
+       defense: 30,
+       stamina: 10,
+       image: "MainBladeEclipse_Smash_Mode.webp",
+     }
+   ]
   },
   {
     name: "Blast",
