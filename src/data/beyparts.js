@@ -88,7 +88,7 @@ const CX_BLADES = [
     image: "MainBladeHunt.webp",
   },
   {
-    name: "Eclipse",
+    name: "Eclipse (Upper Mode)",
     points: 1,
     attack: 30,
     defense: 20,
@@ -98,8 +98,7 @@ const CX_BLADES = [
     image: "MainBladeEclipse_Upper_Mode.webp",
   },
   {
-    name: "Eclipse",
-    atlname: "Eclipse (Mode Change)",
+    name: "Eclipse (Smash Mode)",
     points: 1,
     attack: 20,
     defense: 30,
