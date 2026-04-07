@@ -37,6 +37,15 @@ const BX_BLADES = [
 
 const UX_BLADES = [
   {
+    name: "Orochi Cluster",
+    points: 2,
+    attack: 65,
+    defense: 15,
+    stamina: 20,
+    type: "attack",
+    image: "BladeOrochiCluster",
+  },
+  {
     name: "Meteor Dragoon",
     points: 3,
     attack: 75,
@@ -67,6 +76,16 @@ const UX_BLADES = [
 ];
 
 const CX_BLADES = [
+  {
+    name: "Flare",
+    points: 1,
+    attack: 25,
+    defense: 40,
+    stamina: 10,
+    type: "defense",
+    line: "CX",
+    image: "MainBladeFlare.webp",
+  },
   {
     name: "Might",
     points: 1,
@@ -189,6 +208,72 @@ const CX_BLADES = [
     image: "FoxBrush_J9-70GR.webp",
   },
 ];
+
+const CX_METAL_BLADES = [
+  {
+    name: "Blitz",
+    points: 1,
+    attack: 25,
+    defense: 10,
+    stamina: 5,
+    type: "attack",
+    line: "CX Expand",
+    image: "MetalBladeBlitz.webp",
+  },
+  {
+    name: "Fortress",
+    points: 1,
+    attack: 10,
+    defense: 20,
+    stamina: 10,
+    type: "defense",
+    line: "CX Expand",
+    image: "MetalBladeFortress.webp",
+  },
+  {
+    name: "Rage",
+    points: 1,
+    attack: 10,
+    defense: 10,
+    stamina: 20,
+    type: "stanima",
+    line: "CX Expand",
+    image: "MetalBladeBlitz.webp",
+  },
+]
+
+const CX_OVER_BLADES = [
+  {
+    name: "Break",
+    points: 0,
+    attack: 10,
+    defense: 5,
+    stamina: 5,
+    type: "attack",
+    line: "CX Expand",
+    image: "OverBladeBreak.webp",
+  },
+  {
+    name: "Flow",
+    points: 0,
+    attack: 5,
+    defense: 5,
+    stamina: 10,
+    type: "stamina",
+    line: "CX Expand",
+    image: "OverBladeFlow.webp",
+  },
+  {
+    name: "Guard",
+    points: 0,
+    attack: 5,
+    defense: 10,
+    stamina: 5,
+    type: "defense",
+    line: "CX Expand",
+    image: "OverBladeGuard.webp",
+  },
+]
 
 const ASSIST_BLADES = [
   {
@@ -329,6 +414,42 @@ const ASSIST_BLADES = [
     defense: 17,
     stamina: 11,
     image: "AssistBladeHeavy.webp",
+  },
+  {
+    name: "Zillion",
+    alias: "Z",
+    type: "defense",
+    attack: 22,
+    defense: 15,
+    stamina: 3,
+    image: "AssistBladeZillion.webp",
+  },
+  {
+    name: "Knuckle",
+    alias: "K",
+    type: "attack",
+    attack: 30,
+    defense: 5,
+    stamina: 5,
+    image: "AssistBladeKnuckle.webp",
+  },
+  {
+    name: "Vertical",
+    alias: "V",
+    type: "defense",
+    attack: 10,
+    defense: 25,
+    stamina: 5,
+    image: "AssistBladeVertical.webp",
+  },
+  {
+    name: "Erase",
+    alias: "E",
+    type: "stamina",
+    attack: 10,
+    defense: 5,
+    stamina: 25,
+    image: "AssistBladeErase.webp",
   },
 ];
 
@@ -905,6 +1026,15 @@ const parts = {
       onSelect: function (setPartsUsed) {},
     },
     {
+      name: "1-50",
+      altname: "1-50",
+      points: 1,
+      attack: 18,
+      defense: 9,
+      stamina: 3,
+      type: null,
+    },
+    {
       name: "1-60",
       altname: "1-60",
       points: 1,
@@ -1124,6 +1254,15 @@ const parts = {
       attack: 7,
       defense: 14,
       stamina: 9,
+      type: null,
+    },
+    {
+      name: "8-70",
+      altname: "8-70",
+      points: 1,
+      attack: 8,
+      defense: 10,
+      stamina: 12,
       type: null,
     },
     {
@@ -1375,6 +1514,17 @@ const parts = {
       xDash: 25,
       burstResistance: 80,
       type: "balance",
+    },
+    {
+      name: "Ignition",
+      alias: "I",
+      points: 2,
+      attack: 50,
+      defense: 10,
+      stamina: 5,
+      xDash: 30,
+      burstResistance: 80,
+      type: "attack",
     },
     {
       name: "Jolt",
@@ -1647,6 +1797,28 @@ const parts = {
       attack: 15,
       defense: 30,
       stamina: 45,
+      xDash: 10,
+      burstResistance: 30,
+      type: "stamina",
+    },
+    {
+      name: "Wall Wedge",
+      alias: "WW",
+      points: 2,
+      attack: 5,
+      defense: 60,
+      stamina: 25,
+      xDash: 10,
+      burstResistance: 30,
+      type: "defense",
+    },
+    {
+      name: "Yielding",
+      alias: "Y",
+      points: 3,
+      attack: 10,
+      defense: 15,
+      stamina: 65,
       xDash: 10,
       burstResistance: 30,
       type: "stamina",
