@@ -15,9 +15,9 @@
     },
     {
       "name": "Dran Sword",
-      "attack": 60,
-      "defense": 30,
-      "stamina": 25,
+      "attack": 55,
+      "defense": 25,
+      "stamina": 20,
       "type": "attack",
       "image": "BladeDranSword.png",
       "line": "BX",
@@ -38,9 +38,9 @@
     },
     {
       "name": "Cobalt Dragoon",
-      "attack": 65,
-      "defense": 20,
-      "stamina": 30,
+      "attack": 60,
+      "defense": 15,
+      "stamina": 25,
       "type": "attack",
       "image": "BladeCobaltDragoon.png",
       "line": "BX",
@@ -56,9 +56,9 @@
     },
     {
       "name": "Whale Wave",
-      "attack": 50,
-      "defense": 40,
-      "stamina": 25,
+      "attack": 45,
+      "defense": 35,
+      "stamina": 20,
       "type": "balance",
       "image": "BladeWhaleWave.png",
       "line": "BX",
@@ -78,16 +78,16 @@
         {
           "label": "UX-00 Aero Pegasus Metallic Coat: Double (Blue & Green)",
           "image": "BladeAeroPegasus.png",
-          "attack": 70,
-          "defense": 30,
-          "stamina": 35
+          "attack": 60,
+          "defense": 25,
+          "stamina": 30
         },
         {
           "label": "UX-00 Aero Pegasus Red Ver.",
           "image": "BladeAeroPegasusRed.png",
-          "attack": 70,
-          "defense": 30,
-          "stamina": 35
+          "attack": 60,
+          "defense": 25,
+          "stamina": 30
         }
       ],
       "line": "UX",
@@ -99,9 +99,9 @@
     },
     {
       "name": "Shark Edge",
-      "attack": 65,
-      "defense": 30,
-      "stamina": 20,
+      "attack": 60,
+      "defense": 25,
+      "stamina": 15,
       "type": "attack",
       "image": "BladeSharkEdge.png",
       "line": "BX",
@@ -117,9 +117,9 @@
     },
     {
       "name": "Tusk Mammoth",
-      "attack": 38,
-      "defense": 40,
-      "stamina": 37,
+      "attack": 33,
+      "defense": 35,
+      "stamina": 32,
       "type": "balance",
       "image": "Tusk_Mammoth_3-60T.jpeg",
       "line": "BX",
@@ -131,9 +131,9 @@
     },
     {
       "name": "Hells Scythe",
-      "attack": 35,
-      "defense": 40,
-      "stamina": 40,
+      "attack": 30,
+      "defense": 35,
+      "stamina": 35,
       "type": "balance",
       "image": "BladeHellsScythe.png",
       "line": "BX",
@@ -148,9 +148,9 @@
     },
     {
       "name": "Dran Buster",
-      "attack": 75,
-      "defense": 25,
-      "stamina": 15,
+      "attack": 70,
+      "defense": 20,
+      "stamina": 10,
       "type": "attack",
       "image": "BladeDranBuster.png",
       "line": "BX",
@@ -219,6 +219,7 @@
       "type": "attack",
       "image": "BladeDragoonStorm.png",
       "line": "BX",
+      "spinType": "left",
       "source": [
         "BX-00 DRAGOONSTORM4-60RA"
       ],
@@ -249,9 +250,9 @@
     },
     {
       "name": "Golem Rock",
-      "attack": 35,
-      "defense": 65,
-      "stamina": 15,
+      "attack": 30,
+      "defense": 60,
+      "stamina": 10,
       "type": "defense",
       "image": "BladeGolemRock.png",
       "line": "UX",
@@ -299,9 +300,9 @@
     },
     {
       "name": "Cobalt Drake",
-      "attack": 70,
-      "defense": 35,
-      "stamina": 25,
+      "attack": 65,
+      "defense": 30,
+      "stamina": 20,
       "type": "attack",
       "image": "BladeCobaltDrake.png",
       "line": "BX",
@@ -394,9 +395,9 @@
     },
     {
       "name": "Knight Mail",
-      "attack": 15,
-      "defense": 70,
-      "stamina": 40,
+      "attack": 10,
+      "defense": 65,
+      "stamina": 35,
       "type": "defense",
       "image": "BladeKnightMail.png",
       "line": "UX",
@@ -421,9 +422,9 @@
     },
     {
       "name": "Samurai Saber",
-      "attack": 70,
-      "defense": 25,
-      "stamina": 30,
+      "attack": 65,
+      "defense": 20,
+      "stamina": 25,
       "type": "attack",
       "image": "BladeSamuraiSaber.png",
       "line": "UX",
@@ -435,9 +436,9 @@
     },
     {
       "name": "Samurai Steel",
-      "attack": 45,
-      "defense": 42,
-      "stamina": 28,
+      "attack": 40,
+      "defense": 37,
+      "stamina": 23,
       "type": "balance",
       "image": "Steel_Samurai_4-80T.jpeg",
       "line": "BX"
@@ -535,9 +536,9 @@
     },
     {
       "name": "Phoenix Feather",
-      "attack": 55,
-      "defense": 25,
-      "stamina": 35,
+      "attack": 50,
+      "defense": 20,
+      "stamina": 30,
       "type": "attack",
       "image": "BladePhoenixFeather.png",
       "line": "BX",
@@ -554,30 +555,30 @@
         {
           "label": "BX-23 Phoenix Wing Metallic Coat: Red",
           "image": "BladePhoenixWing.png",
-          "attack": 65,
-          "defense": 30,
-          "stamina": 20
+          "attack": 60,
+          "defense": 25,
+          "stamina": 15
         },
         {
           "label": "BX-35 Phoenix Wing",
           "image": "PhoenixWing 5-80H.jpeg",
-          "attack": 65,
-          "defense": 30,
-          "stamina": 20
+          "attack": 60,
+          "defense": 25,
+          "stamina": 15
         },
         {
           "label": "BX-00 Phoenix Wing Metallic Coat: Navy",
           "image": "PhoenixWing Navy.png",
-          "attack": 65,
-          "defense": 30,
-          "stamina": 20
+          "attack": 60,
+          "defense": 25,
+          "stamina": 15
         },
         {
           "label": "BX-00 Phoenix Wing Metallic Coat: Black キタニタツヤ Ver.",
           "image": "PhoenixWing 9-60GF Metal Coat Black.png",
-          "attack": 65,
-          "defense": 30,
-          "stamina": 20
+          "attack": 60,
+          "defense": 25,
+          "stamina": 15
         }
       ],
       "line": "BX",
@@ -606,9 +607,9 @@
     },
     {
       "name": "Croc Crunch",
-      "attack": 65,
-      "defense": 27,
-      "stamina": 23,
+      "attack": 60,
+      "defense": 22,
+      "stamina": 18,
       "type": "attack",
       "image": "Bite_Croc_3-60LF.jpeg",
       "line": "BX"
@@ -703,9 +704,9 @@
     },
     {
       "name": "HellsHammer",
-      "attack": 55,
-      "defense": 30,
-      "stamina": 30,
+      "attack": 50,
+      "defense": 25,
+      "stamina": 25,
       "type": "balance",
       "image": "BladeHellsHammer.png",
       "line": "UX",
@@ -717,9 +718,9 @@
     },
     {
       "name": "Shinobi Knife",
-      "attack": 28,
-      "defense": 55,
-      "stamina": 32,
+      "attack": 23,
+      "defense": 50,
+      "stamina": 27,
       "type": "defense",
       "image": "BladeKnifeShinobi.png",
       "line": "BX",
@@ -743,9 +744,9 @@
     },
     {
       "name": "Tyranno Beat",
-      "attack": 70,
-      "defense": 35,
-      "stamina": 10,
+      "attack": 65,
+      "defense": 30,
+      "stamina": 5,
       "type": "attack",
       "image": "BladeTyrannoBeat.png",
       "line": "BX",
@@ -817,6 +818,7 @@
         }
       ],
       "line": "BX",
+      "spinType": "left",
       "source": [
         "BX-00 LIGHTNING L-DRAGO1-60F (upper type)",
         "BX-00 LIGHTNING L-DRAGO1-60F (rapid-hit type)"
@@ -915,9 +917,9 @@
     },
     {
       "name": "Hells Chain",
-      "attack": 40,
-      "defense": 45,
-      "stamina": 30,
+      "attack": 35,
+      "defense": 40,
+      "stamina": 25,
       "type": "balance",
       "image": "BladeHellsChain.png",
       "line": "BX",
@@ -954,19 +956,6 @@
         "BX-00 DRIGERSLASH4-80P"
       ],
       "description": "Two round BLADES, designed for both offense and defense."
-    },
-    {
-      "name": "Hells Hammer",
-      "attack": 50,
-      "defense": 25,
-      "stamina": 25,
-      "type": "balance",
-      "image": "BladeHellsHammer.png",
-      "line": "UX",
-      "source": [
-        "UX-02 HELLSHAMMER3-70H"
-      ],
-      "description": "The thick smash BLADE is designed specifically to smash opponents into the stadium."
     },
     {
       "name": "Knight Lance",
@@ -1133,9 +1122,9 @@
     },
     {
       "name": "Arc",
-      "attack": 15,
-      "defense": 15,
-      "stamina": 45,
+      "attack": 10,
+      "defense": 10,
+      "stamina": 40,
       "type": "stamina",
       "image": "MainBladeArc.png",
       "line": "CX",
@@ -1228,9 +1217,9 @@
     },
     {
       "name": "Blitz",
-      "attack": 30,
-      "defense": 15,
-      "stamina": 10,
+      "attack": 25,
+      "defense": 10,
+      "stamina": 5,
       "type": "attack",
       "image": "MetalBladeBlitz.png",
       "line": "CX",
@@ -2185,7 +2174,7 @@
       "description": "Designed 2mm lower than the N BIT, it lowers the center of gravity of the BEY and perform counter attack from a low position."
     },
     {
-      "name": "Yield",
+      "name": "Yielding",
       "alias": "Y",
       "attack": 10,
       "defense": 15,
@@ -2718,7 +2707,6 @@
     {
       "name": "Operate",
       "alias": "Op",
-      "xDash": 10,
       "burstResistance": 30,
       "type": "balance",
       "modes": [
@@ -2726,13 +2714,15 @@
           "label": "Attack Mode",
           "attack": 50,
           "defense": 35,
-          "stamina": 10
+          "stamina": 10,
+          "xDash": 35,
         },
         {
           "label": "Defense Mode",
           "attack": 20,
           "defense": 50,
-          "stamina": 50
+          "stamina": 50,
+          "xDash": 10,
         }
       ],
       "image": "RatchetBitOperate_(Defense_Mode).png",
@@ -2885,13 +2875,15 @@
           "label": "Fine Shaft Tip",
           "attack": 30,
           "defense": 30,
-          "stamina": 60
+          "stamina": 60,
+          "xDash": 10,
         },
         {
           "label": "Thick Shaft Tip",
           "attack": 55,
           "defense": 20,
-          "stamina": 10
+          "stamina": 10,
+          "xDash": 45,
         }
       ],
       "image": "RatchetBitTurbo.png",
